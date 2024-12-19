@@ -20,7 +20,8 @@ export const Playground: React.FC = () => {
       <div className="flex-1 flex flex-col p-4">
         <h2 className="text-xl font-bold mb-2">コードの入力</h2>
         <p className="text-sm text-gray-600 mb-4">
-          コードサンプル：📄🔤Hello World🔤🖼️(表示させたいURLを記述してください)
+          コードサンプル：📄🔤Hello
+          World🔤🖼️[altを記述してください](表示させたいURLを記述してください)
         </p>
         <Textarea
           className="flex-1 p-2 font-mono text-sm"
@@ -63,4 +64,3 @@ export const Playground: React.FC = () => {
   );
 };
 
-// 📄🔤infixer🔤🖼️(https://pbs.twimg.com/profile_images/1322943302497259521/XeRehva-_400x400.jpg)
